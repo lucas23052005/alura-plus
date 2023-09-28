@@ -2,7 +2,7 @@
 :root{
 --branco-principal:#FFFFFF;
 --cinza-secundario:#C0C0C0;
---Botão-azul:#167BF7;
+--Botao-azul:#167BF7;
 --cor-de-fundo:#00030C;
 
 }
@@ -15,7 +15,19 @@ body{
     padding:0;
 }
 
+.principal{
 
+ background-image: url("Background.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+
+}
+
+.conteiner{
+ 
+    height: 100vh;
+
+}
 
 
 
