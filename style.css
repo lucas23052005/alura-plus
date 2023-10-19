@@ -4,11 +4,16 @@
 --cinza-secundario:#C0C0C0;
 --Botao-azul:#167BF7;
 --cor-de-fundo:#00030C;
+--font-principal: "inter";
+--botao-azul-efeito:#3c92fa;
 
 }
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 *{
     margin:0;
@@ -26,6 +31,8 @@ body{
 .conteiner{
  
     height: 100vh;
+    display:grid ;
+    grid-template-columns: 50% 50%;
 
 }
 
@@ -52,5 +59,16 @@ body{
     color: var(--cinza-secundario);
  }
 
+.conteiner__titulo{
 
+ font-size: 28px;
+ font-weight: 700;
+}
+
+.conteiner__imagem{
+ 
+margin: 1em 0 2em 0;
+
+
+}
 
